@@ -27,6 +27,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -81,4 +83,113 @@ a {
     font-size: 24px;
 }
 
+.product-information-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
 
+.product-information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.product-set {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    gap: 64px;
+}
+
+.product-description-pair > img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #3882F6;
+    border-radius: 20%;
+}
+
+.product-description {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+.product-description-pair {
+    width: 250px;
+}
+
+.testimonial-section {
+    background-color: #E5E7EB;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 100px;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 100px;
+    justify-self: flex-end;
+    margin-right: 15px;
+}
+
+.call-to-action-div {
+    background-color: #3882F6;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content: center;
+}
+
+.call-to-action-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.call-to-action-body-text {
+    margin: 0;
+}
+
+.call-to-action-div > .signup-button {
+    border: 1px solid white;
+    height: 50px;
+    align-self: center;
+    border-radius: 10%;
+    margin-right: 80px;
+}
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
