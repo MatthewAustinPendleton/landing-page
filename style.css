@@ -3,7 +3,7 @@
     height: 150px;
     border-radius: 20%;
     border: 1px solid black;
-    box-shadow: 10px 5px;
+    box-shadow: 10px 5px #819cc5;
     margin-left: 200px;
     margin-top: 10px;
 }
@@ -15,17 +15,14 @@
 
 .lower-header-div {
     justify-content: space-between;
+    height: 400px;
 }
-
 
 .header-div {
     display: flex;
     flex-direction: column;
 }
 
-.right-lower-header-div > #img {
-    width: 300px;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -40,6 +37,7 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: -10px;
 }
 
 p, a {
@@ -62,5 +60,25 @@ a {
     text-decoration: none;
 }
 
+.left-lower-header-div {
+    margin-left: 200px;
+}
+
+.right-lower-header-div {
+    margin-right: 200px;
+}
+
+.placeholder-img {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #060a0f;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
 
 
